@@ -12,7 +12,7 @@ stylesheets[all][] = css/robotheme.normalize.css
 stylesheets[all][] = css/robotheme.hacks.css
 stylesheets[all][] = css/robotheme.styles.css
 stylesheets[all][] = css/robotheme.no-query.css
-
+stylesheets[all][] = css/global.css
 ; ========================================
 ; Scripts
 ; ========================================
