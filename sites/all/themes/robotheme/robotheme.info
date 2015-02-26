@@ -1,5 +1,5 @@
 name = robotheme
-description = Custom theme for RobotFest.
+description = Please provide a description for your theme.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
@@ -12,7 +12,7 @@ stylesheets[all][] = css/robotheme.normalize.css
 stylesheets[all][] = css/robotheme.hacks.css
 stylesheets[all][] = css/robotheme.styles.css
 stylesheets[all][] = css/robotheme.no-query.css
-stylesheets[all][] = css/global.css
+
 ; ========================================
 ; Scripts
 ; ========================================
