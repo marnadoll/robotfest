@@ -1,0 +1,21 @@
+/*Import external libraries.*/
+/* line 8, ../sass/global.scss */
+body {
+  color: #000000;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 16px !important;
+  line-height: 1.846;
+  margin: 0;
+  padding: 0; }
+
+/* line 16, ../sass/global.scss */
+a, a:link, a:visited {
+  color: #000000;
+  text-decoration: none; }
+
+/* line 20, ../sass/global.scss */
+a:focus, a:hover, a:active {
+  color: #00C8F8;
+  text-decoration: none; }
+
+/*# sourceMappingURL=global.css.map */
