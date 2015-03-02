@@ -1,5 +1,6 @@
-/*Import external libraries.*/
-/* line 8, ../sass/global.scss */
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
 body {
   color: #000000;
   font-family: "Open Sans",Helvetica,Arial,sans-serif;
@@ -17,5 +18,3 @@ a, a:link, a:visited {
 a:focus, a:hover, a:active {
   color: #00C8F8;
   text-decoration: none; }
-
-/*# sourceMappingURL=global.css.map */

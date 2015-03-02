@@ -1,0 +1,388 @@
+﻿/* $Id: color-vine-style.css,v 1.0.0 2013/09/25 08:18:15 symphonythemes Exp $ */
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body {
+  background: #fafafa;
+}
+a,
+a:link,
+a:visited {
+  color: #734854;
+}
+.themecolor-text {
+  color: #734854;
+}
+pre,
+div.code {
+  border-left: 5px solid #734854;
+}
+.highlight {
+  background: #734854;
+}
+
+/*------------------------------------*\
+	Pages CSS
+\*------------------------------------*/
+/* Page naviagation */
+.item-list .pager .pager-current,
+.item-list .pager li a:hover {
+  background-color: #734854;
+  border-color: #734854;
+  color: #fff;
+}
+
+/* Button, label, badge */
+a.btn,
+.btn {
+  background-color: #734854;
+  border-color: #734854;
+  color: #fff;
+}
+
+#breadcrumb a {
+  color: #fff;
+}
+
+ul.check-list li {
+  background: url(../images/vine/bullet.png) 0 center no-repeat;
+}
+
+/*------------------------------------*\
+	NAVIGATION CSS
+\*------------------------------------*/
+li a.active {
+  color: #734854;
+}
+
+/* Mobile menu*/
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail span.nolink,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail span.nolink,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li.active-trail a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li.active-trail span.nolink {
+  color: #734854;
+}
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li span.nolink,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li span.nolink {
+  color: #fff;
+}
+
+/* User menu */
+.block-system-user-menu ul.menu a:hover,
+.block-system-user-menu ul.menu a.active {
+  color: #734854;
+}
+
+/* Footer menu */
+.zone-footer ul.menu li a:hover,
+.zone-footer ul.menu li a.active {
+  color: #734854;
+}
+
+/*------------------------------------*\
+	NODES CSS
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+	COMMENTS CSS
+\*------------------------------------*/
+article.comment h3 a:hover {
+  color: #734854;
+}
+.comment-links ul li a:hover {
+  color: #734854;
+}
+.comment-links ul li span a {
+  color: #734854;
+}
+
+
+/*------------------------------------*\
+	PORTFOLIO CSS
+\*------------------------------------*/
+/* List Portfolio */
+.view-list-portfolio .views-field-title a:hover {
+  color: #734854;
+}
+
+.view-list-portfolio .views-field-field-portfolio-images .extra-content .icons-field a i.fa-inverse {
+  color: #734854;
+}
+.view-list-portfolio .views-field-field-portfolio-images .extra-content .icons-field a:hover {
+  color: #734854;
+}
+.view-list-portfolio .views-field-field-portfolio-images .extra-content .icons-field a:hover i.fa-inverse {
+  color: #fff;
+}
+.field-name-field-project-url a {
+  background-color: #734854;
+  color: #fff;
+  border-color: #ba4e6c;
+}
+.extra-content {
+  background: url(../images/vine/view-more-bg.png);
+}
+
+/* List Portfolio 1 column */
+.view-list-portfolio.list-portfolio-1-column .views-field-view-node-1 a {
+  border-color: #734854;
+  background-color: #734854;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-field-portfolio-category a {
+  color: #734854 !important;
+}
+
+/* Block slideshow portfolio */
+.block-slideshow-portfolio .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-field-portfolio-images img:hover,
+.block-slideshow-portfolio .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-content-field-portfolio-images img {
+  border-color: #734854;
+}
+.block-slideshow-portfolio .views-row .views-field-title a:hover {
+  color: #734854;
+}
+/* Portfolio Detail */
+.field-name-field-portfolio-category .field-item a {
+  background: url(../images/vine/bullet.png) 0 center no-repeat;
+}  
+
+/*------------------------------------*\
+	NEWS CSS
+\*------------------------------------*/
+/* List articles */
+.view-list-articles .views-field-title a:hover {
+  color: #734854;
+}
+
+.view-list-articles .views-field-field-tags a:hover {
+  color: #734854;
+}
+.view-blog .isotope-element .views-field-title a:hover {
+  color: #734854 !important;
+}
+
+.view-blog .isotope-element .icons-field a {
+  color: #734854 !important;
+}
+
+
+/* Block latest news */
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-field-image img:hover,
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-content-field-image img,
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-field-field-embedded-media img:hover,
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-field-field-embedded-media img {
+  border-color: #734854;
+}
+.block-latest-news .views-row .views-field-title a:hover {
+  color: #734854;
+}
+
+/* Block latest from blog */
+.block-latest-from-blog .views-row .views-field-title a:hover {
+  color: #734854;
+}
+
+/* Block related news */
+.block-related-news .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-field-image img:hover,
+.block-related-news .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-content-field-image img {
+  border-color: #734854;
+}
+.block-related-news .views-row .views-field-title a:hover {
+  color: #734854;
+}
+
+/* Block Recent News */
+.block-recent-news .views-row .views-field-title a:hover {
+  color: #734854;
+}
+
+/* Block Tags */
+.block-tags .views-row .views-field-name a:hover {
+  background-color: #734854;
+  border-color: #734854;
+}
+
+/* Article detail */
+article.node-article .node-tags a:hover,
+article.node-article .node-user a:hover {
+  color: #734854;
+}
+article.node-portfolio .field-slideshow-controls a.next:hover,
+article.node-article .field-slideshow-controls a.next:hover {
+  background: url(../images/vine/field-slideshow-next-hover.png) center center no-repeat;
+}
+article.node-portfolio .field-slideshow-controls a.prev:hover,
+article.node-article .field-slideshow-controls a.prev:hover {
+  background: url(../images/vine/field-slideshow-prev-hover.png) center center no-repeat;
+}
+
+/*------------------------------------*\
+	PHOTOS PAGE CSS
+\*------------------------------------*/
+.view-list-photos .views-row .views-field-title a:hover {
+  color: #734854;
+}
+
+/*------------------------------------*\
+	PRICING PAGE CSS
+\*------------------------------------*/
+.sep-boxed-pricing .column.column-middle {
+  background-color: #734854;
+  border-color: #734854;
+}
+
+.full-boxed-pricing ul li.title-row,
+.sep-boxed-pricing ul li.title-row {
+  color: #734854;
+}
+.full-boxed-pricing ul li.footer-row a.button:hover,
+.sep-boxed-pricing ul li.footer-row a.button:hover {
+  background-color: #734854;
+  border-color: #734854;
+}
+.sep-boxed-pricing .column.column-middle ul li {
+  border-color: #875865;
+}
+.sep-boxed-pricing .column.column-middle {
+  color: #f4e9ec;
+}
+
+
+/*------------------------------------*\
+	TEAM CSS
+\*------------------------------------*/
+/* View list members */
+.view-list-members .views-field-field-member-image .extra-content-inner a:hover i {
+  color: #734854;
+}
+.view-list-members .views-field-title a:hover {
+  color: #734854;
+}
+.view-list-members .views-field-field-position {
+  color: #734854;
+}
+.view-list-members .views-field-field-member-image .field-more-link {
+  background: url(../images/vine/view-more-bg.png);
+}
+
+/* Block memmbers */
+.block-members .views-row .views-field-field-member-image:hover {
+  border-color: #734854;
+}
+.block-members .views-row .views-field-field-position {
+  color: #734854;
+}
+
+
+/*------------------------------------*\
+	BLOCKS CSS
+\*------------------------------------*/
+/* Block Flex Slideshow */
+.flex-control-paging li a.flex-active {
+  background: #734854;
+}
+
+/* Block tabs slideshow */
+#block-tab-slideshow.block-tabs-vertical.ui-tabs .ui-tabs-nav li.ui-state-active {
+  background: url(../images/vine/tab-slideshow-nav-active.png) right 0 no-repeat;
+  border-color: #ba4e6c;
+}
+
+/* Block recent comments */
+.block-comments-recent-block li a:hover {
+  color: #734854;
+}
+
+/* Block list */
+.block-list .content li a:hover {
+  color: #734854;
+}
+
+/* Block icon on left */
+.block-icon-left .icon-stack:hover {
+  color: #734854;
+}
+
+/* Progress bar */
+
+.progressbar.progressbar-themecolor .value,
+.progressbar .value {
+  color: #734854;
+}
+.progressbar-themecolor.ui-progressbar .ui-progressbar-value,
+.ui-progressbar .ui-progressbar-value {
+  background-color: #734854;
+  border-color: #ba4e6c;
+}
+
+/* Block Sidebar Navigation */
+.block-features-navigation .content ul.menu li a:hover,
+.block-faq-faq-categories .content ul li a:hover {
+  color: #734854;
+}
+
+.accordion-menu-name-side-menu  h3.active-trail {
+  color: #734854;
+}
+.accordion-menu-name-side-menu  h3.active-trail span.accordion-link,
+.accordion-menu-name-side-menu  h3.active-trail a.active-trail,
+.accordion-menu-name-side-menu  h3.ui-state-active span.accordion-link {
+  color: #734854;
+}
+.accordion-menu-name-side-menu .accordion-header a:hover,
+.accordion-menu-name-side-menu .ui-accordion-header span.accordion-link:hover {
+  color: #734854;
+}
+.accordion-menu-name-side-menu .ui-accordion-content-active ul.menu li a:hover,
+.accordion-menu-name-side-menu .ui-accordion-content-active ul.menu li a.active {
+  color: #734854;
+}
+
+.ui-accordion ul.menu li span.nolink,
+.ui-accordion ul.menu li a {
+  background: url(../images/vine/bullet.png) 0 center no-repeat;
+}
+
+/* 404 Page */
+.page-404-menu {
+  background: url(../images/vine/page-404-menu.png) 0 0 no-repeat;
+}
+.page-404-menu-inner {
+  background: #734854;
+}
+
+
+/* Block Forum New */
+.block-forum-new .content ul li a {
+  color: #734854;
+}
+
+/*------------------------------------*\
+	FORMS CSS
+\*------------------------------------*/
+button:focus, button:active,
+input:focus, input:active,
+select:focus, select:active,
+textarea:focus, textarea:active {
+  border-color: #734854;
+}
+
+button, input[type="reset"], input[type="submit"], input[type="button"] {
+  background-color: #734854;
+  border-color: #ba4e6c;
+}
+
+/*------------------------------------*\
+	TABS CSS
+\*------------------------------------*/
+
+ul.primary li.active a,
+ul.primary li.active a:hover,
+ul.primary li.active a:focus {
+  background-color: #734854;
+}
+

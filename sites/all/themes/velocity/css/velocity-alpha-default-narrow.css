@@ -1,0 +1,495 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body {
+  font-size: 81.25%; /* 13px */
+  line-height: 1.846;
+}
+
+/*------------------------------------*\
+	Pages Background
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+	NAVIGATION CSS
+\*------------------------------------*/
+
+.region-menu .block-nice-menus {
+  display: block;
+  margin-bottom: 0;
+}
+.region-menu ul.nice-menu {
+  text-align: right;
+}
+.block-nice-menus ul.nice-menu li a, .block-nice-menus ul.nice-menu li span.nolink {
+  padding: 0 10px;
+}
+
+/*------------------------------------*\
+	PORTFOLIO CSS
+\*------------------------------------*/
+/* List Portfolio */
+.view-list-portfolio .views-row {
+  float: left;
+  clear: none;
+}
+.view-list-portfolio .views-row-inner {
+  margin: 0 10px;
+}
+
+/* List Portfolio 1 column */
+.list-portfolio-1-column .isotope-element,
+.list-portfolio-1-column .views-row {
+  width: 100%;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-field-portfolio-images {
+  width: 180px;
+  margin-right: 20px;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-title {
+  padding: 0 20px;
+}
+
+/* List Portfolio 2 column */
+.list-portfolio-2-column .isotope-element,
+.list-portfolio-2-column .views-row {
+  width: 50%;
+}
+.list-portfolio-2-column .views-row-3,
+.list-portfolio-2-column .views-row-5,
+.list-portfolio-2-column .views-row-7,
+.list-portfolio-2-column .views-row-9,
+.list-portfolio-2-column .views-row-11,
+.list-portfolio-2-column .views-row-13,
+.list-portfolio-2-column .views-row-15 {
+  clear: left;
+}
+
+/* List Portfolio 3 column */
+.list-portfolio-3-column .isotope-element,
+.list-portfolio-3-column .views-row {
+  width: 33%;
+}
+.list-portfolio-3-column .views-row-4,
+.list-portfolio-3-column .views-row-7,
+.list-portfolio-3-column .views-row-10,
+.list-portfolio-3-column .views-row-13,
+.list-portfolio-3-column .views-row-16,
+.list-portfolio-3-column .views-row-19,
+.list-portfolio-3-column .views-row-21 {
+  clear: left;
+}
+
+/* List Portfolio 4 column */
+.list-portfolio-4-column .isotope-element,
+.list-portfolio-4-column .views-row {
+  width: 25%;
+}
+.list-portfolio-4-column .views-row-5,
+.list-portfolio-4-column .views-row-9,
+.list-portfolio-4-column .views-row-13,
+.list-portfolio-4-column .views-row-17,
+.list-portfolio-4-column .views-row-21 {
+  clear: left;
+}
+
+/* Portfolio detail */
+.node-portfolio .field-name-field-portfolio-images,
+.node-portfolio .field-name-field-portfolio-images img,
+.node-portfolio .field-name-field-portfolio-images .field-slideshow-slide,
+.node-portfolio .field-name-field-portfolio-images .field-slideshow-slide img {
+  width: 100%;
+}
+
+/* Latest Portfolio */
+
+
+/* List Portfolio Default */
+.view-list-portfolio.view-list-portfolio-default .views-row-inner {
+}
+
+
+/* Block Recent Portfolio on sidebar */
+.block-recent-portfolio-sidebar .views-row {
+  width: 33%;
+  margin: 0;
+  clear: none;
+}
+.block-recent-portfolio-sidebar .views-row-inner {
+  margin: 6px;
+}
+.block-recent-portfolio-sidebar .views-row-1,
+.block-recent-portfolio-sidebar .views-row-4,
+.block-recent-portfolio-sidebar .views-row-7 {
+  clear: left;
+}
+
+/* Block slideshow portfolio */
+.block-slideshow-portfolio .views-slideshow-controls-bottom {
+  width: 100%;
+  margin-right: 0px;
+}
+.block-slideshow-portfolio .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-field-field-portfolio-images {
+  margin: 17px;
+}
+.block-slideshow-portfolio .views-slideshow-controls-bottom .views-slideshow-pager-field-item {
+  width: 25%;
+}
+.block-slideshow-portfolio .views_slideshow_cycle_main {
+  width: 100%;
+}
+
+
+/*------------------------------------*\
+	NEWS CSS
+\*------------------------------------*/
+.view-list-articles .views-field-title a {
+  font-size: 150%;
+}
+
+/* List Article Full Width Style */
+.view-list-articles.list-article-full-width .views-row .views-field-field-image,
+.view-list-articles.list-article-full-width .views-row .views-field-field-image img {
+  width: 100%;
+}
+.view-list-articles.list-article-full-width .views-row .views-field-field-embedded-media,
+.view-list-articles.list-article-full-width .views-row .views-field-field-embedded-media iframe {
+  height: 450px;
+}
+
+/* List Article Medium Style */
+.view-list-articles.list-article-medium .views-row .views-field-field-image,
+.view-list-articles.list-article-medium .views-row .views-field-field-image img,
+.view-list-articles.list-article-medium .views-row .views-field-field-embedded-media iframe {
+  width: 180px;
+}
+.view-list-articles.list-article-medium .views-row .views-field-field-embedded-media iframe {
+  height: 128px;
+}
+
+/* List Article Printerest */
+.list-article-printerest .view-content.masonry {
+  margin-left: 56px;
+}
+
+/* List Article Calendar */
+.view-list-articles.list-article-default .views-row .views-field-field-embedded-media,
+.view-list-articles.list-article-default .views-row .views-field-field-embedded-media iframe {
+  height: 300px;
+}
+
+/* Latest News */
+.block-latest-news .views-slideshow-controls-bottom {
+  width: 100%;
+  margin-right: 0px;
+}
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-field-field-image {
+  margin: 17px;
+}
+.block-latest-news .views-slideshow-controls-bottom .views-slideshow-pager-field-item {
+  width: 25%;
+}
+.block-latest-news .views_slideshow_cycle_main {
+  width: 100%;
+}
+
+/* Related News */
+.block-related-news-slideshow .views-slideshow-controls-bottom {
+  width: 100%;
+  margin-right: 0px;
+}
+.block-related-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item {
+  width: 25%;
+}
+.block-related-news-slideshow .views_slideshow_cycle_main {
+  width: 100%;
+}
+
+/* Block latest form blog */
+.block-latest-from-blog .views-row {
+  width: 25%;
+}
+.block-latest-from-blog .views-row-inner {
+  margin: 0 10px;
+}
+.block-latest-from-blog .views-row .views-field-body {
+  padding-bottom: 80px;
+}
+
+/* Article detail */
+article.node-article {
+  padding-left: 50px;
+  margin-left: 36px;
+  position: relative;
+  border-left: 1px solid #e8e8e8;
+}
+article.node-article .user-picture {
+  position: absolute;
+  top: 0;
+  left: -36px;
+  float: left;
+}
+article.node-article .field-name-field-image,
+article.node-article .field-slideshow-slide,
+article.node-article .field-slideshow-slide img,
+article.node-article .field-name-field-image img {
+  width: 100% !important;
+}
+
+article.node-article .field-name-field-embedded-media iframe {
+  height: 300px;
+}
+
+/*------------------------------------*\
+	PHOTOS PAGE CSS
+\*------------------------------------*/
+.view-list-photos .views-row {
+  float: left;
+  width: 175px;
+  clear: none;
+  margin: 00px;
+}
+.view-list-photos .views-row-1,
+.view-list-photos .views-row-5,
+.view-list-photos .views-row-9,
+.view-list-photos .views-row-13 {
+  clear: left;
+  margin-left: 0;
+}
+.view-list-photos .views-row-4,
+.view-list-photos .views-row-8,
+.view-list-photos .views-row-12,
+.view-list-photos .views-row-16 {
+  margin-right: 0
+}
+
+/* Block Photos */
+.block-photos .views-row {
+  width: 70px;
+  margin: 10px 0 10px 20px;
+  clear: none;
+}
+.block-photos .views-row-1,
+.block-photos .views-row-3,
+.block-photos .views-row-5,
+.block-photos .views-row-7,
+.block-photos .views-row-9 {
+  clear: none;
+  margin-left: 0;
+}
+
+/*------------------------------------*\
+	ABOUT US CSS
+\*------------------------------------*/
+.node-about-us .field-name-field-image {
+  float: left;
+  margin-right: 20px;
+  width: 270px;
+}
+.node-about-us .field-name-field-image .field-slideshow-slide,
+.node-about-us .field-name-field-image img {
+  width: 270px !important;
+}
+.block-block-about-us-block .field-name-field-image {
+  float: right;
+  margin: 0 0 0 20px;
+}
+.block-block-about-us-block .field-name-field-image,
+.block-block-about-us-block .field-name-field-image .field-slideshow,
+.block-block-about-us-block .field-name-field-image .field-slideshow-slide,
+.block-block-about-us-block .field-name-field-image img {
+  width: 270px !important;
+}
+
+
+/*------------------------------------*\
+	TEAM CSS
+\*------------------------------------*/
+/* List member */
+.view-list-members .views-row {
+  float: left;
+  clear: none;
+  width: 33%;
+  margin: 0;
+}
+.view-list-members .attachment .views-row {
+  width: 50%;
+}
+.view-list-members .views-row-inner {
+  margin: 10px 30px 30px;
+}
+.view-list-members .views-row-1,
+.view-list-members .views-row-4,
+.view-list-members .views-row-7,
+.view-list-members .views-row-10,
+.view-list-members .views-row-13,
+.view-list-members .views-row-16 {
+  margin-left: 0;
+  clear: left;
+}
+.view-list-members .views-row-3,
+.view-list-members .views-row-6,
+.view-list-members .views-row-9,
+.view-list-members .views-row-12,
+.view-list-members .views-row-15,
+.view-list-members .views-row-18 {
+  margin-right: 0;
+}
+.view-list-members .views-field-field-member-image .field-more-link div {
+  margin: 50px 5px;
+}
+
+.view-list-members .views-field-field-member-image .field-more-link div,
+.view-list-members .views-field-field-member-image .field-more-link  a {
+  width: 30px;
+  height: 30px;
+}
+
+.view-list-members .views-field-field-member-image {
+  width: 97%;
+}
+.view-list-members .views-field-field-member-image img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Block our team */
+.block-members .views-row {
+  border: none;
+}
+.list-3-columns .views-row {
+  width: 33%;
+}
+.list-4-columns .views-row {
+  width: 25%;
+}
+
+/* Member detail */
+article.node-team-member .field-name-field-member-image {
+  width: 250px;
+}
+
+/*------------------------------------*\
+	BLOCK CSS
+\*------------------------------------*/
+/* Header */
+
+/* Block Our services */
+.our-services {
+  margin: 10px;
+  width: 213px;
+  float: left;
+}
+
+.our-services-1 {
+  float: left;
+  width: 155px;
+  margin: 0 10px;
+}
+
+/* Block tabs slideshow */
+#block-tab-slideshow.block-tabs-vertical.ui-tabs .ui-tabs-nav {
+  width: 35%;
+  margin-top: 30px;
+}
+#block-tab-slideshow.block-tabs-vertical.ui-tabs .ui-tabs-panel {
+  width: 55%;
+  padding: 0 5%;
+  margin-top: 30px;
+}
+
+/* Block background fixed */
+.block-background-fixed {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+/* Block Testimonials */
+.block-testimonials .views-row {
+  width: 33%;
+  border: none;
+}
+.block-testimonials .views-row .views-row-inner {
+  margin: 0 10px;
+}
+
+/* Flexslideshow */
+.flexslider .views-field-body {
+  position: absolute;
+  bottom:40px;
+  left: 20px;
+  z-index: 100;
+}
+.flex-control-nav {
+  bottom: 10px;
+}
+
+/* Block Promotion */
+.promotion-box {
+  text-align: left;
+}
+.promotion-box .promotion-box-button,
+.promotion-box .promotion-box-button a {
+  float: right;
+}
+
+/* Block Contact */
+.contact-form .form-item.form-item-name {
+  padding-right: 4%;
+}
+.contact-form .form-item.form-item-name,
+.contact-form .form-item.form-item-mail {
+  width: 48%;
+}
+.contact-form .form-item.form-item-subject,
+.contact-form input.form-text {
+  width: 100%;
+}
+
+/* Block Newsletter */
+.newsletter-content {
+  width: 380px;
+  margin: 100px 50px 0 120px;
+  float: left;
+  text-align: left;
+}
+.newsletter-content .simplenews-subscribe input.form-submit,
+.newsletter-content .simplenews-subscribe input.form-text {
+  width: 250px;
+}
+.newsleter-img {
+  float: left;
+  margin-top: 50px;
+}
+/*------------------------------------*\
+	OTHER STYLE CSS
+\*------------------------------------*/
+.one-half, .one-third, .two-third, .three-fourth, .one-fourth {
+    float: left;
+    margin-bottom: 20px;
+	padding: 0;
+	margin-bottom: 0;
+    margin-right: 4%;
+    position: relative;
+}
+.one-half.last, .one-third.last, .two-third.last, .three-fourth.last, .one-fourth.last {
+  margin-right: 0;
+}
+.one-half {
+  width: 48%;
+}
+.one-third {
+  width: 30.6666%;
+}
+.two-third {
+  width: 65.3332%;
+}
+.one-fourth {
+  width: 22%;
+}
+.three-fourth {
+  width: 74%;
+}

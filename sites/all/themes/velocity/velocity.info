@@ -1,0 +1,167 @@
+name = ST Velocity
+description = ST Velocity is a Drupal theme created by <a href="http://www.symphonythemes.com">Symphony Themes</a>.
+core = 7.x
+engine = phptemplate
+screenshot = screenshot.png
+base theme = omega
+
+; ========================================
+; Regions
+; ========================================
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+regions[content] = Content
+regions[user_first] = User Bar First
+regions[user_second] = User Bar Second
+regions[branding] = Branding
+regions[menu] = Menu
+regions[header] = Header
+regions[full_width] = Full Width
+regions[feature] = Feature
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[content_top] = Content Top
+regions[content_bottom_first] = Content Bottom First
+regions[content_bottom_second] = Content Bottom Second
+regions[content_bottom_third] = Content Bottom Third
+regions[content_bottom_fourth] = Content Bottom Fourth
+regions[content_bottom_fifth] = Content Bottom Fifth
+regions[content_bottom_sixth] = Content Bottom Sixth
+regions[content_bottom_seventh] = Content Bottom Seventh
+regions[content_bg_img] = Content Background Image
+regions[postscript_first] = Postscript First
+regions[postscript_second] = Postscript Second
+regions[postscript_third] = Postscript Third
+regions[postscript_fourth] = Postscript Fourth
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+
+; ========================================
+; Zones
+; ========================================
+zones[user] = User
+zones[branding] = Branding
+zones[menu] = Menu
+zones[title] = Title
+zones[header] = Header
+zones[full_width] = Full Width
+zones[feature] = Feature Top
+zones[content_top] = Content Top
+zones[content] = Content
+zones[content_bottom_first] = Content Bottom First
+zones[content_bottom_second] = Content Bottom Second
+zones[content_bottom_third] = Content Bottom Third
+zones[content_bottom_fourth] = Content Bottom Fourth
+zones[content_bottom_fifth] = Content Bottom Fifth
+zones[content_bg_img] = Content Background Image
+zones[postscript] = Postscript
+zones[footer] = Footer
+
+; ========================================
+; Libraries
+; ========================================
+libraries[modernizr_script][name] = modernizr script
+libraries[modernizr_script][description] = modernizr script file
+libraries[modernizr_script][js][1][file] = modernizr.js
+libraries[modernizr_script][js][1][options][weight] = 1
+libraries[sticky_script][name] = sticky script
+libraries[sticky_script][description] = sticky script file
+libraries[sticky_script][js][1][file] = sticky.js
+libraries[sticky_script][js][1][options][weight] = 2
+libraries[isotope_script][name] = Isotope script
+libraries[isotope_script][description] = Isotope script file
+libraries[isotope_script][js][1][file] = jquery.isotope.min.js
+libraries[isotope_script][js][1][options][weight] = 2
+libraries[isotope_perfectmasonry-script][name] = isotope perfectmasonry script
+libraries[isotope_perfectmasonry-script][description] = isotope perfectmasonry script file
+libraries[isotope_perfectmasonry-script][js][1][file] = jquery.isotope.perfectmasonry.js
+libraries[isotope_perfectmasonry-script][js][1][options][weight] = 4
+libraries[custom_script][name] = Custom script
+libraries[custom_script][description] = Custom script file
+libraries[custom_script][js][1][file] = custom.js
+libraries[custom_script][js][1][options][weight] = 5
+
+; ========================================
+; Css
+; ========================================
+css[st-reset.css][name] = ST Theme reset styles
+css[st-reset.css][description] = This file holds all the Reset CSS of SymphonyThemes.
+css[st-reset.css][options][weight] = 9
+css[global.css][name] = Your custom global styles
+css[global.css][description] = This file holds all the globally active custom CSS of your theme.
+css[global.css][options][weight] = 12
+
+; ========================================
+; Settings
+; ========================================
+settings[toggle_logo] = 1
+settings[toggle_name] = 0
+settings[toggle_slogan] = 1
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
+settings[omega_toggle_front_page_content] = 1
+settings[default_logo] = 0
+settings[logo_path] = public://homelogo_2.png
+settings[logo_upload] = ""
+settings[default_favicon] = 1
+settings[favicon_path] = ""
+settings[favicon_upload] = ""
+settings[omega_enable_warning] = 1
+settings[omega_toggle_extension_compatibility] = 1
+settings[omega_conditional_classes_html] = 1
+settings[omega_apple_touch] = 1
+settings[omega_cleartype] = 1
+settings[omega_handheld_friendly] = 1
+settings[omega_mobile_optimized] = 1
+settings[omega_viewport] = 1
+settings[omega_viewport_user_scaleable] = 1
+settings[omega_chrome_edge] = 1
+settings[omega_toggle_extension_development] = 1
+settings[omega_enable_export_reminder] = 1
+settings[omega_rebuild_theme_registry] = 0
+settings[omega_rebuild_aggregates] = 0
+settings[omega_browser_width_indicator] = 0
+settings[omega_livereload] = 1
+settings[omega_livereload_script] = http://localhost:35729/livereload.js
+settings[omega_livereload_host] = localhost
+settings[omega_livereload_port] = 35729
+settings[omega_demo_regions] = 1
+settings[omega_demo_regions_list][content] = content
+settings[omega_demo_regions_list][user_first] = user_first
+settings[omega_demo_regions_list][user_second] = user_second
+settings[omega_demo_regions_list][branding] = branding
+settings[omega_demo_regions_list][menu] = menu
+settings[omega_demo_regions_list][header] = header
+settings[omega_demo_regions_list][full_width] = full_width
+settings[omega_demo_regions_list][feature] = feature
+settings[omega_demo_regions_list][sidebar_first] = sidebar_first
+settings[omega_demo_regions_list][sidebar_second] = sidebar_second
+settings[omega_demo_regions_list][content_top] = content_top
+settings[omega_demo_regions_list][content_bottom_first] = content_bottom_first
+settings[omega_demo_regions_list][content_bottom_second] = content_bottom_second
+settings[omega_demo_regions_list][content_bottom_third] = content_bottom_third
+settings[omega_demo_regions_list][content_bottom_fourth] = content_bottom_fourth
+settings[omega_demo_regions_list][content_bottom_fifth] = content_bottom_fifth
+settings[omega_demo_regions_list][content_bottom_sixth] = content_bottom_sixth
+settings[omega_demo_regions_list][content_bottom_seventh] = content_bottom_seventh
+settings[omega_demo_regions_list][content_bg_img] = content_bg_img
+settings[omega_demo_regions_list][postscript_first] = postscript_first
+settings[omega_demo_regions_list][postscript_second] = postscript_second
+settings[omega_demo_regions_list][postscript_third] = postscript_third
+settings[omega_demo_regions_list][postscript_fourth] = postscript_fourth
+settings[omega_demo_regions_list][footer_first] = footer_first
+settings[omega_demo_regions_list][footer_second] = footer_second
+settings[omega_toggle_extension_assets] = 1
+settings[omega_libraries][selectivizr][status] = 0
+settings[omega_libraries][respond][status] = 0
+settings[omega_libraries][pie][status] = 0
+settings[omega_libraries][html5shiv][status] = 0
+settings[omega_toggle_extension_layouts] = 0
+settings[omega_layout] = ""
+settings[theme_color] = blue
+settings[theme_layout] = layout-wide
+settings[nice_menus_custom_css] = ""

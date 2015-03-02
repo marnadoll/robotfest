@@ -1,0 +1,388 @@
+﻿/* $Id: color-splash-orange-style.css,v 1.0.0 2013/09/25 08:18:15 symphonythemes Exp $ */
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body {
+  background: #fafafa;
+}
+a,
+a:link,
+a:visited {
+  color: #e6624d;
+}
+.themecolor-text {
+  color: #e6624d;
+}
+pre,
+div.code {
+  border-left: 5px solid #e6624d;
+}
+.highlight {
+  background: #e6624d;
+}
+
+/*------------------------------------*\
+	Pages CSS
+\*------------------------------------*/
+/* Page naviagation */
+.item-list .pager .pager-current,
+.item-list .pager li a:hover {
+  background-color: #e6624d;
+  border-color: #e6624d;
+  color: #fff;
+}
+
+/* Button, label, badge */
+a.btn,
+.btn {
+  background-color: #e6624d;
+  border-color: #e6624d;
+  color: #fff;
+}
+
+#breadcrumb a {
+  color: #e6624d;
+}
+
+ul.check-list li {
+  background: url(../images/orange/bullet.png) 0 center no-repeat;
+}
+
+/*------------------------------------*\
+	NAVIGATION CSS
+\*------------------------------------*/
+li a.active {
+  color: #e6624d;
+}
+
+/* Mobile menu*/
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail span.nolink,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail span.nolink,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li.active-trail a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li.active-trail span.nolink {
+  color: #e6624d;
+}
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li span.nolink,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li span.nolink {
+  color: #fff;
+}
+
+/* User menu */
+.block-system-user-menu ul.menu a:hover,
+.block-system-user-menu ul.menu a.active {
+  color: #e6624d;
+}
+
+/* Footer menu */
+.zone-footer ul.menu li a:hover,
+.zone-footer ul.menu li a.active {
+  color: #e6624d;
+}
+
+/*------------------------------------*\
+	NODES CSS
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+	COMMENTS CSS
+\*------------------------------------*/
+article.comment h3 a:hover {
+  color: #e6624d;
+}
+.comment-links ul li a:hover {
+  color: #e6624d;
+}
+.comment-links ul li span a {
+  color: #e6624d;
+}
+
+
+/*------------------------------------*\
+	PORTFOLIO CSS
+\*------------------------------------*/
+/* List Portfolio */
+.view-list-portfolio .views-field-title a:hover {
+  color: #e6624d;
+}
+
+.view-list-portfolio .views-field-field-portfolio-images .extra-content .icons-field a i.fa-inverse {
+  color: #e6624d;
+}
+.view-list-portfolio .views-field-field-portfolio-images .extra-content .icons-field a:hover {
+  color: #e6624d;
+}
+.view-list-portfolio .views-field-field-portfolio-images .extra-content .icons-field a:hover i.fa-inverse {
+  color: #fff;
+}
+.field-name-field-project-url a {
+  background-color: #e6624d;
+  border-color: #C94E3A;
+  color: #fff;
+}
+.extra-content {
+  background: url(../images/orange/view-more-bg.png);
+}
+
+/* List Portfolio 1 column */
+.view-list-portfolio.list-portfolio-1-column .views-field-view-node-1 a {
+  border-color: #e6624d;
+  background-color: #e6624d;
+}
+
+.view-list-portfolio.list-portfolio-1-column .views-field-field-portfolio-category a {
+  color: #E6624D !important;
+}
+
+/* Block slideshow portfolio */
+.block-slideshow-portfolio .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-field-portfolio-images img:hover,
+.block-slideshow-portfolio .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-content-field-portfolio-images img {
+  border-color: #e6624d;
+}
+.block-slideshow-portfolio .views-row .views-field-title a:hover {
+  color: #e6624d;
+}
+
+/* Portfolio Detail */
+.field-name-field-portfolio-category .field-item a {
+  background: url(../images/orange/bullet.png) 0 center no-repeat;
+}  
+
+/*------------------------------------*\
+	NEWS CSS
+\*------------------------------------*/
+/* List articles */
+.view-list-articles .views-field-title a:hover {
+  color: #e6624d;
+}
+
+.view-list-articles .views-field-field-tags a:hover {
+  color: #e6624d;
+}
+.view-blog .isotope-element .views-field-title a:hover {
+  color: #E6624D !important;
+}
+
+.view-blog .isotope-element .icons-field a {
+  color: #E6624D !important;
+}
+
+/* Block latest news */
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-field-image img:hover,
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-content-field-image img,
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-field-field-embedded-media img:hover,
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-field-field-embedded-media img {
+  border-color: #e6624d;
+}
+.block-latest-news .views-row .views-field-title a:hover {
+  color: #e6624d;
+}
+
+/* Block latest from blog */
+.block-latest-from-blog .views-row .views-field-title a:hover {
+  color: #e6624d;
+}
+
+/* Block related news */
+.block-related-news .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-field-image img:hover,
+.block-related-news .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-content-field-image img {
+  border-color: #e6624d;
+}
+.block-related-news .views-row .views-field-title a:hover {
+  color: #e6624d;
+}
+
+/* Block Recent News */
+.block-recent-news .views-row .views-field-title a:hover {
+  color: #e6624d;
+}
+
+/* Block Tags */
+.block-tags .views-row .views-field-name a:hover {
+  background-color: #e6624d;
+  border-color: #e6624d;
+}
+
+/* Article detail */
+article.node-article .node-tags a:hover,
+article.node-article .node-user a:hover {
+  color: #e6624d;
+}
+article.node-portfolio .field-slideshow-controls a.next:hover,
+article.node-article .field-slideshow-controls a.next:hover {
+  background: url(../images/orange/field-slideshow-next-hover.png) center center no-repeat;
+}
+article.node-portfolio .field-slideshow-controls a.prev:hover,
+article.node-article .field-slideshow-controls a.prev:hover {
+  background: url(../images/orange/field-slideshow-prev-hover.png) center center no-repeat;
+}
+
+/*------------------------------------*\
+	PHOTOS PAGE CSS
+\*------------------------------------*/
+.view-list-photos .views-row .views-field-title a:hover {
+  color: #e6624d;
+}
+
+/*------------------------------------*\
+	PRICING PAGE CSS
+\*------------------------------------*/
+.sep-boxed-pricing .column.column-middle {
+  background-color: #e6624d;
+  border-color: #e6624d;
+}
+
+.full-boxed-pricing ul li.title-row,
+.sep-boxed-pricing ul li.title-row {
+  color: #e6624d;
+}
+.full-boxed-pricing ul li.footer-row a.button:hover,
+.sep-boxed-pricing ul li.footer-row a.button:hover {
+  background-color: #e6624d;
+  border-color: #e6624d;
+}
+.sep-boxed-pricing .column.column-middle ul li {
+  border-color: #E9725F;
+}
+.sep-boxed-pricing .column.column-middle {
+  color: #FFDCD6;
+}
+
+
+/*------------------------------------*\
+	TEAM CSS
+\*------------------------------------*/
+/* View list members */
+.view-list-members .views-field-field-member-image .extra-content-inner a:hover i {
+  color: #e6624d;
+}
+.view-list-members .views-field-title a:hover {
+  color: #e6624d;
+}
+.view-list-members .views-field-field-position {
+  color: #e6624d;
+}
+.view-list-members .views-field-field-member-image .field-more-link {
+  background: url(../images/orange/view-more-bg.png);
+}
+
+/* Block memmbers */
+.block-members .views-row .views-field-field-member-image:hover {
+  border-color: #e6624d;
+}
+.block-members .views-row .views-field-field-position {
+  color: #e6624d;
+}
+
+
+/*------------------------------------*\
+	BLOCKS CSS
+\*------------------------------------*/
+/* Block Flex Slideshow */
+.flex-control-paging li a.flex-active {
+  background: #e6624d;
+}
+
+/* Block tabs slideshow */
+#block-tab-slideshow.block-tabs-vertical.ui-tabs .ui-tabs-nav li.ui-state-active {
+  background: url(../images/orange/tab-slideshow-nav-active.png) right 0 no-repeat;
+  border-color: #C94E3A;
+}
+
+/* Block recent comments */
+.block-comments-recent-block li a:hover {
+  color: #e6624d;
+}
+
+/* Block list */
+.block-list .content li a:hover {
+  color: #e6624d;
+}
+
+/* Block icon on left */
+.block-icon-left .icon-stack:hover {
+  color: #e6624d;
+}
+
+/* Progress bar */
+.progressbar.progressbar-themecolor .value,
+.progressbar .value {
+  color: #e6624d;
+}
+.progressbar-themecolor.ui-progressbar .ui-progressbar-value,
+.ui-progressbar .ui-progressbar-value {
+  background-color: #e6624d;
+  border-color: #c94e3a;
+}
+
+/* Block Sidebar Navigation */
+.block-features-navigation .content ul.menu li a:hover,
+.block-faq-faq-categories .content ul li a:hover {
+  color: #e6624d;
+}
+
+.accordion-menu-name-side-menu  h3.active-trail {
+  color: #e6624d;
+}
+.accordion-menu-name-side-menu  h3.active-trail span.accordion-link,
+.accordion-menu-name-side-menu  h3.active-trail a.active-trail,
+.accordion-menu-name-side-menu  h3.ui-state-active span.accordion-link {
+  color: #e6624d;
+}
+.accordion-menu-name-side-menu .accordion-header a:hover,
+.accordion-menu-name-side-menu .ui-accordion-header span.accordion-link:hover {
+  color: #e6624d;
+}
+.accordion-menu-name-side-menu .ui-accordion-content-active ul.menu li a:hover,
+.accordion-menu-name-side-menu .ui-accordion-content-active ul.menu li a.active {
+  color: #e6624d;
+}
+
+.ui-accordion ul.menu li span.nolink,
+.ui-accordion ul.menu li a {
+  background: url(../images/orange/bullet.png) 0 center no-repeat;
+}
+
+/* 404 Page */
+.page-404-menu {
+  background: url(../images/orange/page-404-menu.png) 0 0 no-repeat;
+}
+.page-404-menu-inner {
+  background: #e6624d;
+}
+
+
+/* Block Forum New */
+.block-forum-new .content ul li a {
+  color: #e6624d;
+}
+
+/*------------------------------------*\
+	FORMS CSS
+\*------------------------------------*/
+button:focus, button:active,
+input:focus, input:active,
+select:focus, select:active,
+textarea:focus, textarea:active {
+  border-color: #e6624d;
+}
+
+button, input[type="reset"], input[type="submit"], input[type="button"] {
+  background-color: #e6624d;
+  border-color: #C94E3A;
+}
+
+/*------------------------------------*\
+	TABS CSS
+\*------------------------------------*/
+
+ul.primary li.active a,
+ul.primary li.active a:hover,
+ul.primary li.active a:focus {
+  background-color: #e6624d;
+}
+

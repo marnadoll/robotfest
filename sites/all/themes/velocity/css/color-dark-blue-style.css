@@ -1,0 +1,388 @@
+﻿/* $Id: color-dark-blue-style.css,v 1.0.0 2013/09/25 08:18:15 symphonythemes Exp $ */
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body {
+  background: #fafafa;
+}
+a,
+a:link,
+a:visited {
+  color: #55606E;
+}
+.themecolor-text {
+  color: #55606E;
+}
+pre,
+div.code {
+  border-left: 5px solid #55606E;
+}
+.highlight {
+  background: #55606E;
+}
+
+/*------------------------------------*\
+	Pages CSS
+\*------------------------------------*/
+/* Page naviagation */
+.item-list .pager .pager-current,
+.item-list .pager li a:hover {
+  background-color: #55606E;
+  border-color: #55606E;
+  color: #fff;
+}
+
+/* Button, label, badge */
+a.btn,
+.btn {
+  background-color: #55606E;
+  border-color: #55606E;
+  color: #fff;
+}
+
+#breadcrumb a {
+  color: #fff;
+}
+
+ul.check-list li {
+  background: url(../images/dark-blue/bullet.png) 0 center no-repeat;
+}
+
+/*------------------------------------*\
+	NAVIGATION CSS
+\*------------------------------------*/
+li a.active {
+  color: #55606E;
+}
+
+/* Mobile menu*/
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail span.nolink,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail span.nolink,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li.active-trail a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li.active-trail span.nolink {
+  color: #55606E;
+}
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li span.nolink,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li a,
+.responsive-menus.responsified ul.responsive-menus-simple li.active-trail li.active-trail li span.nolink {
+  color: #fff;
+}
+
+/* User menu */
+.block-system-user-menu ul.menu a:hover,
+.block-system-user-menu ul.menu a.active {
+  color: #55606E;
+}
+
+/* Footer menu */
+.zone-footer ul.menu li a:hover,
+.zone-footer ul.menu li a.active {
+  color: #55606E;
+}
+
+/*------------------------------------*\
+	NODES CSS
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+	COMMENTS CSS
+\*------------------------------------*/
+article.comment h3 a:hover {
+  color: #55606E;
+}
+.comment-links ul li a:hover {
+  color: #55606E;
+}
+.comment-links ul li span a {
+  color: #55606E;
+}
+
+
+/*------------------------------------*\
+	PORTFOLIO CSS
+\*------------------------------------*/
+/* List Portfolio */
+.view-list-portfolio .views-field-title a:hover {
+  color: #55606E;
+}
+
+.view-list-portfolio .views-field-field-portfolio-images .extra-content .icons-field a i.fa-inverse {
+  color: #55606E;
+}
+.view-list-portfolio .views-field-field-portfolio-images .extra-content .icons-field a:hover {
+  color: #55606E;
+}
+.view-list-portfolio .views-field-field-portfolio-images .extra-content .icons-field a:hover i.fa-inverse {
+  color: #fff;
+}
+.field-name-field-project-url a {
+  background-color: #55606E;
+  color: #fff;
+  border-color: #4775af;
+}
+.extra-content {
+  background: url(../images/dark-blue/view-more-bg.png);
+}
+
+/* List Portfolio 1 column */
+.view-list-portfolio.list-portfolio-1-column .views-field-view-node-1 a {
+  border-color: #55606E;
+  background-color: #55606E;
+}
+
+.view-list-portfolio.list-portfolio-1-column .views-field-field-portfolio-category a {
+  color: #55606E !important;
+}
+
+/* Block slideshow portfolio */
+.block-slideshow-portfolio .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-field-portfolio-images img:hover,
+.block-slideshow-portfolio .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-content-field-portfolio-images img {
+  border-color: #55606E;
+}
+.block-slideshow-portfolio .views-row .views-field-title a:hover {
+  color: #55606E;
+}
+/* Portfolio Detail */
+.field-name-field-portfolio-category .field-item a {
+  background: url(../images/dark-blue/bullet.png) 0 center no-repeat;
+}  
+
+/*------------------------------------*\
+	NEWS CSS
+\*------------------------------------*/
+/* List articles */
+.view-list-articles .views-field-title a:hover {
+  color: #55606E;
+}
+
+.view-list-articles .views-field-field-tags a:hover {
+  color: #55606E;
+}
+.view-blog .isotope-element .views-field-title a:hover {
+  color: #55606E !important;
+}
+
+.view-blog .isotope-element .icons-field a {
+  color: #55606E !important;
+}
+
+/* Block latest news */
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-field-image img:hover,
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-content-field-image img,
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-field-field-embedded-media img:hover,
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-field-field-embedded-media img {
+  border-color: #55606E;
+}
+.block-latest-news .views-row .views-field-title a:hover {
+  color: #55606E;
+}
+
+/* Block latest from blog */
+.block-latest-from-blog .views-row .views-field-title a:hover {
+  color: #55606E;
+}
+
+/* Block related news */
+.block-related-news .views-slideshow-controls-bottom .views-slideshow-pager-field-item .views-content-field-image img:hover,
+.block-related-news .views-slideshow-controls-bottom .views-slideshow-pager-field-item.active .views-content-field-image img {
+  border-color: #55606E;
+}
+.block-related-news .views-row .views-field-title a:hover {
+  color: #55606E;
+}
+
+/* Block Recent News */
+.block-recent-news .views-row .views-field-title a:hover {
+  color: #55606E;
+}
+
+/* Block Tags */
+.block-tags .views-row .views-field-name a:hover {
+  background-color: #55606E;
+  border-color: #55606E;
+}
+
+/* Article detail */
+article.node-article .node-tags a:hover,
+article.node-article .node-user a:hover {
+  color: #55606E;
+}
+article.node-portfolio .field-slideshow-controls a.next:hover,
+article.node-article .field-slideshow-controls a.next:hover {
+  background: url(../images/dark-blue/field-slideshow-next-hover.png) center center no-repeat;
+}
+article.node-portfolio .field-slideshow-controls a.prev:hover,
+article.node-article .field-slideshow-controls a.prev:hover {
+  background: url(../images/dark-blue/field-slideshow-prev-hover.png) center center no-repeat;
+}
+
+/*------------------------------------*\
+	PHOTOS PAGE CSS
+\*------------------------------------*/
+.view-list-photos .views-row .views-field-title a:hover {
+  color: #55606E;
+}
+
+/*------------------------------------*\
+	PRICING PAGE CSS
+\*------------------------------------*/
+.sep-boxed-pricing .column.column-middle {
+  background-color: #55606E;
+  border-color: #55606E;
+}
+
+.full-boxed-pricing ul li.title-row,
+.sep-boxed-pricing ul li.title-row {
+  color: #55606E;
+}
+.full-boxed-pricing ul li.footer-row a.button:hover,
+.sep-boxed-pricing ul li.footer-row a.button:hover {
+  background-color: #55606E;
+  border-color: #55606E;
+}
+.sep-boxed-pricing .column.column-middle ul li {
+  border-color: #616c7b;
+}
+.sep-boxed-pricing .column.column-middle {
+  color: #e9eff5;
+}
+
+
+/*------------------------------------*\
+	TEAM CSS
+\*------------------------------------*/
+/* View list members */
+.view-list-members .views-field-field-member-image .extra-content-inner a:hover i {
+  color: #55606E;
+}
+.view-list-members .views-field-title a:hover {
+  color: #55606E;
+}
+.view-list-members .views-field-field-position {
+  color: #55606E;
+}
+.view-list-members .views-field-field-member-image .field-more-link {
+  background: url(../images/dark-blue/view-more-bg.png);
+}
+
+/* Block memmbers */
+.block-members .views-row .views-field-field-member-image:hover {
+  border-color: #55606E;
+}
+.block-members .views-row .views-field-field-position {
+  color: #55606E;
+}
+
+
+/*------------------------------------*\
+	BLOCKS CSS
+\*------------------------------------*/
+/* Block Flex Slideshow */
+.flex-control-paging li a.flex-active {
+  background: #55606E;
+}
+
+/* Block tabs slideshow */
+#block-tab-slideshow.block-tabs-vertical.ui-tabs .ui-tabs-nav li.ui-state-active {
+  background: url(../images/dark-blue/tab-slideshow-nav-active.png) right 0 no-repeat;
+  border-color: #4775af;
+}
+
+/* Block recent comments */
+.block-comments-recent-block li a:hover {
+  color: #55606E;
+}
+
+/* Block list */
+.block-list .content li a:hover {
+  color: #55606E;
+}
+
+/* Block icon on left */
+.block-icon-left .icon-stack:hover {
+  color: #55606E;
+}
+
+/* Progress bar */
+
+.progressbar.progressbar-themecolor .value,
+.progressbar .value {
+  color: #55606E;
+}
+.progressbar-themecolor.ui-progressbar .ui-progressbar-value,
+.ui-progressbar .ui-progressbar-value {
+  background-color: #55606E;
+  border-color: #4775af;
+}
+
+/* Block Sidebar Navigation */
+.block-features-navigation .content ul.menu li a:hover,
+.block-faq-faq-categories .content ul li a:hover {
+  color: #55606E;
+}
+
+.accordion-menu-name-side-menu  h3.active-trail {
+  color: #55606E;
+}
+.accordion-menu-name-side-menu  h3.active-trail span.accordion-link,
+.accordion-menu-name-side-menu  h3.active-trail a.active-trail,
+.accordion-menu-name-side-menu  h3.ui-state-active span.accordion-link {
+  color: #55606E;
+}
+.accordion-menu-name-side-menu .accordion-header a:hover,
+.accordion-menu-name-side-menu .ui-accordion-header span.accordion-link:hover {
+  color: #55606E;
+}
+.accordion-menu-name-side-menu .ui-accordion-content-active ul.menu li a:hover,
+.accordion-menu-name-side-menu .ui-accordion-content-active ul.menu li a.active {
+  color: #55606E;
+}
+
+.ui-accordion ul.menu li span.nolink,
+.ui-accordion ul.menu li a {
+  background: url(../images/dark-blue/bullet.png) 0 center no-repeat;
+}
+
+/* 404 Page */
+.page-404-menu {
+  background: url(../images/dark-blue/page-404-menu.png) 0 0 no-repeat;
+}
+.page-404-menu-inner {
+  background: #55606E;
+}
+
+
+/* Block Forum New */
+.block-forum-new .content ul li a {
+  color: #55606E;
+}
+
+/*------------------------------------*\
+	FORMS CSS
+\*------------------------------------*/
+button:focus, button:active,
+input:focus, input:active,
+select:focus, select:active,
+textarea:focus, textarea:active {
+  border-color: #55606E;
+}
+
+button, input[type="reset"], input[type="submit"], input[type="button"] {
+  background-color: #55606E;
+  border-color: #4775af;
+}
+
+/*------------------------------------*\
+	TABS CSS
+\*------------------------------------*/
+
+ul.primary li.active a,
+ul.primary li.active a:hover,
+ul.primary li.active a:focus {
+  background-color: #55606E;
+}
+

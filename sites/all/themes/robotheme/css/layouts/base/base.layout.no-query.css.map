@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;;AAEA,UAAW;EACT,SAAS,EAAE,IAAI",
-"sources": ["../../../sass/layouts/base/base.layout.no-query.scss"],
-"names": [],
-"file": "base.layout.no-query.css"
-}

@@ -1,0 +1,84 @@
+﻿/* $Id: color-vine-style.css,v 1.0.0 2013/09/25 08:18:15 symphonythemes Exp $ */
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body {
+  background: #fafafa;
+}
+
+/*------------------------------------*\
+	Pages Background
+\*------------------------------------*/
+.zone-user-wrapper {
+  border-bottom: 1px solid #e8e8e8;
+  background: #f8f8f8;
+}
+.zone-branding-wrapper {
+  background: #fff url(../images/rainbow-border.png) center top repeat-x;
+  border: 1px solid #e8e8e8;
+}
+.zone-title-wrapper {
+  background: url(../images/zone-title-bg.png) center center no-repeat;
+}
+.zone-header-wrapper {
+  background: #fafafa;
+}
+#zone-full-width,
+#region-full-width {
+  background: #fafafa;
+}
+.zone-feature-wrapper {
+  background: url(../images/featured-zone-bg.png) center center;
+}
+
+.zone-content-bg-img-wrapper {
+  background: url(../images/zone-background-img.jpg) 0 0 fixed;
+  color: #fff;
+}
+.zone-content-bg-img-wrapper .zone-inner-wrapper {
+  background: rgba(67, 73, 82, 0.8); /*  rgba(0, 0, 0, 0.7);*/
+}
+.zone-content-bottom-first-wrapper,
+.zone-content-bottom-third-wrapper,
+.zone-content-bottom-fifth-wrapper {
+  background: #f8f7f6;
+  border-top: 1px solid #e8e8e8;
+}
+.zone-content-wrapper,
+.zone-content-bottom-second-wrapper,
+.zone-content-bottom-fourth-wrapper {
+  background: #fafafa;
+  border-top: 1px solid #e8e8e8;
+}
+.zone-postscript-wrapper {
+  background: #3a3a3a url(../images/rainbow-border.png) center top repeat-x;
+  border-bottom: 1px solid #444;
+}
+.zone-footer-wrapper {
+  background: #333;
+}
+.zone-user,
+.zone-branding,
+.zone-title,
+.zone-feature,
+.zone-full-width,
+.zone-content-bg-img,
+.zone-content-bg-img .zone-inner,
+.zone-content,
+.zone-content-bottom-first,
+.zone-content-bottom-second,
+.zone-content-bottom-third,
+.zone-content-bottom-fourth,
+.zone-content-bottom-fifth,
+.zone-postscript,
+.zone-footer {
+  background: none;
+  border: none;
+}
+
+#zone-full-width,
+#region-full-width {
+  width: 100%;
+  margin: 0;
+}
+

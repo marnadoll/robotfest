@@ -1,0 +1,357 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+body {
+  font-size: 87.5%; /* 14px */
+  line-height: 1.714;
+}
+
+/*------------------------------------*\
+	Pages Background
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+	PORTFOLIO CSS
+\*------------------------------------*/
+/* List Portfolio */
+.view-list-portfolio .views-row {
+  float: left;
+  clear: none;
+}
+
+/* List Portfolio 1 column */
+.list-portfolio-1-column .views-row {
+  width: 100%;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-field-portfolio-images {
+  width: 50%;
+}
+
+/* List Portfolio 1 column text */
+.view-list-portfolio.list-portfolio-1-column.list-portfolio-with-text .views-field-field-portfolio-category,
+.view-list-portfolio.list-portfolio-1-column.list-portfolio-with-text .views-field-body {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+/* List Portfolio 1 column text sidebar */
+.view-list-portfolio.list-portfolio-1-column-text.view-portfolios-sidebar .views-field-title,
+.view-list-portfolio.list-portfolio-1-column-text.view-portfolios-sidebar .views-field-field-portfolio-category,
+.view-list-portfolio.list-portfolio-1-column-text.view-portfolios-sidebar .views-field-body {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.view-list-portfolio.list-portfolio-1-column-text.view-portfolios-sidebar .views-field-field-project-url {
+  margin-right: 0px;
+}
+
+/* List Portfolio 2 column */
+.list-portfolio-2-column .views-row-3,
+.list-portfolio-2-column .views-row-5,
+.list-portfolio-2-column .views-row-7,
+.list-portfolio-2-column .views-row-9,
+.list-portfolio-2-column .views-row-11,
+.list-portfolio-2-column .views-row-13,
+.list-portfolio-2-column .views-row-15 {
+  clear: left;
+}
+
+/* List Portfolio 3 column */
+.list-portfolio-3-column .views-row-4,
+.list-portfolio-3-column .views-row-7,
+.list-portfolio-3-column .views-row-10,
+.list-portfolio-3-column .views-row-13,
+.list-portfolio-3-column .views-row-16,
+.list-portfolio-3-column .views-row-19,
+.list-portfolio-3-column .views-row-21 {
+  clear: left;
+}
+
+/* List Portfolio 4 column */
+.list-portfolio-4-column .views-row-5,
+.list-portfolio-4-column .views-row-9,
+.list-portfolio-4-column .views-row-13,
+.list-portfolio-4-column .views-row-17,
+.list-portfolio-4-column .views-row-21 {
+  clear: left;
+}
+
+/* Portfolio Grid Layout */
+.view-list-portfolio.list-portfolio-grid .views-row,
+.view-list-portfolio.list-portfolio-grid .isotope-element {
+  width: 295px;
+}
+
+/* Block slideshow portfolio */
+.block-slideshow-portfolio .views-slideshow-controls-bottom {
+  width: 900px;
+}
+.block-slideshow-portfolio .views-slideshow-controls-bottom .views-slideshow-pager-field-item {
+  width: 25%;
+}
+.block-slideshow-portfolio .views_slideshow_cycle_main {
+  width: 260px;
+}
+
+/* Block recent work */
+.block-recent-works .jcarousel-item {
+  width: 280px;
+}
+
+/* Portfolio detail */
+
+
+/*------------------------------------*\
+	NEWS CSS
+\*------------------------------------*/
+/* List article */
+.view-list-articles .views-field-title a {
+  font-size: 180%;
+}
+
+/* List Article Full Width Style */
+.view-list-articles.list-article-full-width .views-row .views-field-field-image,
+.view-list-articles.list-article-full-width .views-row .views-field-field-image img {
+  width: 100%;
+}
+.view-list-articles.list-article-full-width .views-row .views-field-field-embedded-media,
+.view-list-articles.list-article-full-width .views-row .views-field-field-embedded-media iframe {
+  height: 600px;
+}
+.view-list-articles.list-article-default .views-row .views-field-field-embedded-media,
+.view-list-articles.list-article-default .views-row .views-field-field-embedded-media iframe {
+  height: 450px;
+}
+.view-list-articles.list-article-full-width .views-field-title,
+.view-list-articles.list-article-full-width .views-field-body {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+/* List Article Medium Style */
+.view-list-articles.list-article-medium .views-row .views-field-field-image,
+.view-list-articles.list-article-medium .views-row .views-field-field-image img,
+.view-list-articles.list-article-medium .views-row .views-field-field-embedded-media iframe {
+  width: 280px;
+}
+.view-list-articles.list-article-medium .views-row .views-field-field-embedded-media iframe {
+  height: 200px;
+}
+
+/* List Article Grid */
+.list-article-printerest .view-content.masonry {
+  margin-left: 0;
+}
+
+/* Block latest from blog */
+.block-latest-from-blog .views-row .views-field-picture {
+  position: relative;
+  top: -35px;
+  width: 60px;
+  z-index: 10;
+  margin-left: -35px;
+  left: 50%;
+  padding: 3px;
+  border-radius: 33px;
+  -moz-border-radius: 33px;
+  -webkit-border-radius: 33px;
+  border: 1px solid #e8e8e8;  
+  background: #fafafa;
+}
+.block-latest-from-blog .views-row .views-field-picture img {
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;  
+  width: 60px;
+}
+
+/* Latest News */
+.block-latest-news-slideshow .views-slideshow-controls-bottom {
+  width: 900px;
+}
+.block-latest-news-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item {
+  width: 25%;
+}
+.block-latest-news-slideshow .views_slideshow_cycle_main {
+  width: 260px;
+}
+
+
+/* Recent News */
+.block-recent-news .views-row .views-field-field-image,
+.block-recent-news .views-row .views-field-field-image img,
+.block-recent-news .views-row .views-field-field-embedded-media
+.block-recent-news .views-row .views-field-field-embedded-media img {
+  width: 40px;
+}
+
+/* Article detail */
+/*
+article.node-article {
+  padding-left: 60px;
+  margin-left: 46px;
+  position: relative;
+  border-left: 1px solid #e8e8e8;
+  -webkit-border-radius: 43px;
+  -moz-border-radius: 43px;
+  border-radius: 43px;
+}
+article.node-article .user-picture {
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: -46px;
+  padding: 5px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  border-radius: 45px;
+}
+article.node-article .user-picture img {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+} */
+article.node-article .field-name-field-image,
+article.node-article .field-slideshow-slide,
+article.node-article .field-slideshow-slide img,
+article.node-article .field-name-field-image img {
+  width: 100% !important;
+}
+article.node-article .field-name-field-embedded-media iframe {
+  height: 500px;
+}
+
+/*------------------------------------*\
+	PHOTOS PAGE CSS
+\*------------------------------------*/
+.view-list-photos .views-row {
+  width: 295px;
+}
+
+
+/* Block Photos */
+.block-photos .views-row {
+  width: 75px;
+  margin: 10px 0 10px 20px;
+  clear: none;
+}
+.block-photos .views-row-1,
+.block-photos .views-row-4,
+.block-photos .views-row-7 {
+  clear: none;
+  margin-left: 0;
+}
+
+/*------------------------------------*\
+	ABOUT US CSS
+\*------------------------------------*/
+.node-about-us .field-name-field-image {
+  width: 300px;
+}
+.node-about-us .field-name-field-image .field-slideshow,
+.node-about-us .field-name-field-image .field-slideshow-slide,
+.node-about-us .field-name-field-image img {
+  width: 300px !important;
+}
+.block-block-about-us-block .node-about-us .field-name-field-image,
+.block-block-about-us-block .field-name-field-image .field-slideshow,
+.block-block-about-us-block .field-name-field-image .field-slideshow-slide,
+.block-block-about-us-block .field-name-field-image img {
+  width: 505px !important;
+}
+
+/*------------------------------------*\
+	TEAM CSS
+\*------------------------------------*/
+/* List member */
+.view-list-members .views-row-inner {
+  margin: 10px 40px 30px;
+}
+
+.block-members .views-row .views-field-field-member-image {
+  width: 180px;
+  border-radius: 95px;
+  -moz-border-radius: 95px;
+  -webkit-border-radius: 95px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  padding: 5px;
+  margin: 0 auto;
+}
+.block-members .views-row .views-field-field-member-image img {
+  border-radius: 90px;
+  -moz-border-radius: 90px;
+  -webkit-border-radius: 90px;
+  width: 180px;
+}
+/* Block our team */
+.block-our-team .view-list-members .views-row {
+  width: 280px;
+}
+
+/* Member detail */
+article.node-team-member .field-name-field-member-image {
+  width: 430px;
+}
+
+/*------------------------------------*\
+	PRICING CSS
+\*------------------------------------*/
+article.node .full-boxed-pricing ul {
+  width: 275px;
+}
+.sep-boxed-pricing ul li {
+  width: 360px;
+}
+
+/*------------------------------------*\
+	COMMENT CSS
+\*------------------------------------*/
+#edit-field-comment-user-name,
+#edit-field-comment-user-email,
+#edit-field-comment-website {
+  width: 217px;
+}
+
+/*------------------------------------*\
+	BLOCKS CSS
+\*------------------------------------*/
+.region-sidebar-second .block {
+  margin-bottom: 40px;
+}
+.region-sidebar-second .quicktabs_main .block {
+  margin-bottom: 0px;
+}
+/* Block Our services */
+.our-services {
+  width: 373px;
+}
+
+.our-services-1 {
+  width: 275px;
+}
+
+
+/* Block Comment */
+.block.block-comment-recent .content {
+  padding: 0 10px;
+}
+
+/* Block login */
+.block-login input.form-text {
+  width: 255px;
+}
+
+
+/* Block Newsletter */
+.newsletter-content {
+  width: 500px;
+  float: left;
+  margin-left: 230px;
+}
+.newsleter-img {
+  float: left;
+  padding-top: 50px;
+}

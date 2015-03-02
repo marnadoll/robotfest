@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";;AAAA,UAAW;EACT,SAAS,EAAE,IAAI",
-"sources": ["../sass/base/_media.scss"],
-"names": [],
-"file": "robotheme.styles.css"
-}
