@@ -137,23 +137,21 @@ blockquote {
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 .zone-branding-wrapper {
-  background: #fff url(../images/rainbow-border.png) center top repeat-x;
+  background: #fff url(../images/cyanline.png) center top repeat-x;
   padding-top: 3px;
-  border: 1px solid #e8e8e8;
 }
-.zone-title-wrapper {
-  background: url(../images/zone-title-bg.png) center center no-repeat;
+.zone-title-wrapper { 
   color: #fff;
 }
 .zone-title {
   padding: 20px 0;
 }
 .zone-header-wrapper {
-  background: #fafafa;
+  background: #fff;
 }
 #zone-full-width,
 #region-full-width {
-  background: #fafafa;
+  background: #fff;
 }
 
 .zone-content-top {
@@ -179,7 +177,6 @@ blockquote {
 }
 
 .zone-content-bg-img-wrapper {
-  background: url(../images/zone-background-img.jpg) 0 0 fixed;
   color: #fff;
 }
 .zone-content-bg-img-wrapper .zone-inner-wrapper {
@@ -291,7 +288,7 @@ h1.title {
 
 /* Text */
 .themecolor-text {
-  color: #e6624d;
+  color: #E61610;
 }
 .text-align-right {
   text-align: right;
@@ -301,7 +298,7 @@ h1.title {
 }
 
 .classic-quote {
-  font-family: "Droid Serif",Georgia,Times,serif;
+  font-family: 'Open Sans', Arial,Helvetica,Verdana,sans-serif;
   font-style: italic;
   font-weight: normal;
 }
@@ -775,9 +772,9 @@ ul.menu {
 }
 ul#main-menu,
 .region-menu ul.menu {
-  margin:0;
+  margin: 0px;
   background: #606060;
-  padding: 15px 0 0px 0;
+  padding: 0px 0 0px 0px;
   text-align: right;
   width: 70%;
   float: right;
@@ -967,7 +964,7 @@ ul.nice-menu-down li.menuparent:hover {
 .block-nice-menus ul.nice-menu li.over li.over li a.active,
 .block-nice-menus ul.nice-menu li.active-trail li.active-trail li.active-trail a:hover,
 .block-nice-menus ul.nice-menu li.active-trail li.active-trail li.active-trail a.active {
-  background: #fcfcfc;
+  background: #fff;
   color: #000;
   margin-bottom: 0;
 }

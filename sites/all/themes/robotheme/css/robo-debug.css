@@ -1,0 +1,123 @@
+.alpha-grid-debug .grid-1:hover, .alpha-grid-debug .grid-2:hover,
+.alpha-grid-debug .grid-3:hover, .alpha-grid-debug .grid-4:hover,
+.alpha-grid-debug .grid-5:hover, .alpha-grid-debug .grid-6:hover,
+.alpha-grid-debug .grid-7:hover, .alpha-grid-debug .grid-8:hover,
+.alpha-grid-debug .grid-9:hover, .alpha-grid-debug .grid-10:hover,
+.alpha-grid-debug .grid-11:hover, .alpha-grid-debug .grid-12:hover,
+.alpha-grid-debug .grid-13:hover, .alpha-grid-debug .grid-14:hover,
+.alpha-grid-debug .grid-15:hover, .alpha-grid-debug .grid-16:hover,
+.alpha-grid-debug .grid-17:hover, .alpha-grid-debug .grid-18:hover,
+.alpha-grid-debug .grid-19:hover, .alpha-grid-debug .grid-21:hover,
+.alpha-grid-debug .grid-21:hover, .alpha-grid-debug .grid-22:hover,
+.alpha-grid-debug .grid-23:hover, .alpha-grid-debug .grid-24:hover {
+  background-color: rgba(0, 115, 186, 0.2);
+}
+
+/* line 17, ../sass/v50-debug.scss */
+.region {
+  min-height: 1px;
+}
+
+/* line 21, ../sass/v50-debug.scss */
+.alpha-debug-block {
+  display: none;
+}
+
+/* line 25, ../sass/v50-debug.scss */
+.alpha-region-debug .alpha-debug-block {
+  display: block;
+  margin: 0 0 10px 0;
+  padding: 9px 12px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* line 33, ../sass/v50-debug.scss */
+.alpha-region-debug .alpha-debug-block h2,
+.alpha-region-debug .alpha-debug-block p {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* line 42, ../sass/v50-debug.scss */
+.alpha-region-debug .alpha-debug-block h2 {
+  color: #888;
+}
+
+/* line 46, ../sass/v50-debug.scss */
+.alpha-region-debug .alpha-debug-block p {
+  color: #000;
+  display: none;
+}
+
+/* line 51, ../sass/v50-debug.scss */
+.alpha-region-debug .region:hover .alpha-debug-block {
+  border: 1px solid #888;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 56, ../sass/v50-debug.scss */
+.alpha-region-debug .region:hover .alpha-debug-block p {
+  display: block !important;
+}
+
+/* line 60, ../sass/v50-debug.scss */
+.alpha-region-debug .region:hover .alpha-debug-block h2 {
+  display: none;
+}
+
+/* line 64, ../sass/v50-debug.scss */
+.alpha-resize-indicator {
+  background: url(../images/resize-handle.png) no-repeat 0 0;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  z-index: 998;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 74, ../sass/v50-debug.scss */
+.alpha-grid-toggle,
+.alpha-block-toggle {
+  width: 24px;
+  height: 22px;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+}
+
+/* line 83, ../sass/v50-debug.scss */
+.alpha-grid-toggle {
+  background: url(../images/grid-toggle.png) no-repeat 0 -22px;
+  top: 80px;
+}
+
+/* line 88, ../sass/v50-debug.scss */
+.alpha-block-toggle {
+  background: url(../images/block-toggle.png) no-repeat 0 -22px;
+  top: 110px;
+}
+
+/* line 93, ../sass/v50-debug.scss */
+.alpha-grid-debug .alpha-grid-toggle,
+.alpha-region-debug .alpha-block-toggle {
+  background-position: 0 0;
+}
+
+/* line 98, ../sass/v50-debug.scss */
+.alpha-grid-toggle:hover,
+.alpha-grid-toggle:focus,
+.alpha-grid-toggle:active {
+  width: 55px;
+}
+
+/* line 104, ../sass/v50-debug.scss */
+.alpha-block-toggle:hover,
+.alpha-block-toggle:focus,
+.alpha-block-toggle:active {
+  width: 72px;
+}

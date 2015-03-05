@@ -1,0 +1,76 @@
+/* Clearfix fix to prevent padding at bottom of page. FML */
+/* line 2, ../sass/v50-v50.scss */
+.clearfix:after {
+  font-size: 0;
+}
+
+/* Skip link styling */
+/* line 7, ../sass/v50-v50.scss */
+#skip-link {
+  left: 50%;
+  margin-left: -5.25em;
+  margin-top: 0;
+  position: absolute;
+  width: auto;
+  z-index: 50;
+}
+
+/* line 16, ../sass/v50-v50.scss */
+#skip-link a,
+#skip-link a:link,
+#skip-link a:visited {
+  background: #444;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: block;
+  padding: 1px 10px 2px 10px;
+  text-decoration: none;
+  -khtml-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+/* line 35, ../sass/v50-v50.scss */
+#skip-link a:hover,
+#skip-link a:active,
+#skip-link a:focus {
+  outline: 0;
+}
+
+/* Give pagers and inline LI items simple styling without all the junk from core */
+/* line 43, ../sass/v50-v50.scss */
+.inline li,
+.tabs li,
+.breadcrumb li {
+  list-style: none;
+  display: inline;
+  margin-right: 0.5em;
+}
+
+/* line 51, ../sass/v50-v50.scss */
+.item-list li {
+  list-style: none;
+}
+
+/* line 55, ../sass/v50-v50.scss */
+.pager li {
+  display: inline;
+  margin-right: 0.25em;
+}
+
+/* line 60, ../sass/v50-v50.scss */
+img {
+  vertical-align: bottom;
+}
+
+/* line 64, ../sass/v50-v50.scss */
+.field-label-inline .field-label,
+.field-label-inline .field-items,
+.field-label-inline .field-item {
+  display: inline;
+}
