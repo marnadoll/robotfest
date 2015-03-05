@@ -123,7 +123,7 @@ blockquote {
 }
 .zone-user-wrapper {
   border-bottom: 1px solid #e8e8e8;
-  background: #f8f8f8;
+  background: #FFFFFF;
 }
 .zone-branding-wrapper.fixed {
   position: fixed;
@@ -195,7 +195,7 @@ blockquote {
   padding: 40px 0 20px;
 }
 .zone-postscript-wrapper {
-  background: #FEFB64 url(../images/cyanline.png) center top repeat-x;
+  background: #FEFB64;
   padding-top: 3px;
   color: #777;
   border-bottom: 1px solid #444;
@@ -204,7 +204,7 @@ blockquote {
   padding: 40px 0;
 }
 .zone-footer-wrapper {
-  background: #606060;
+  background: #606060 url(../images/cyanline.png) center top repeat-x;
   color: #666;
 }
 .zone-footer {
@@ -277,7 +277,7 @@ h3.title {
 
 /* Page and full node titles */
 h1.title {
-  color: #fff;
+  color: #606060;
   font-weight: normal;
   margin-bottom: 0;
   padding: 0px 10px;
@@ -748,8 +748,7 @@ ul.menu {
 /*
  * Navigation bar
  */
-#navigation {
- 
+#navigation { 
 }
 
 #navigation ul.links,
@@ -777,10 +776,11 @@ ul.menu {
 ul#main-menu,
 .region-menu ul.menu {
   margin:0;
-  padding: 1px 0 0px 0;
+  background: #606060;
+  padding: 15px 0 0px 0;
   text-align: right;
-  width: 100%;
-  float: left;
+  width: 70%;
+  float: right;
 }
 ul#main-menu li,
 .region-menu ul.menu li {
