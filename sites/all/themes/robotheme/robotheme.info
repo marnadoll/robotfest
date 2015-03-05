@@ -25,6 +25,7 @@ regions[postscript_third] = 'Postscript Third'
 regions[postscript_fourth] = 'Postscript Fourth'
 regions[footer_first] = 'Footer First'
 regions[footer_second] = 'Footer Second'
+
 zones[header] = 'Header'
 zones[content] = 'Content'
 zones[footer] = 'Footer'
@@ -33,9 +34,16 @@ zones[branding] = 'Branding'
 zones[menu] = 'Menu'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
+zones[footer] = Footer
+
 css[global.css][name] = 'Your custom global styles'
 css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
 css[global.css][options][weight] = '10'
+
+css[style.css][name] = 'Your custom global styles'
+css[style.css][description] = 'This file holds all the style active custom CSS of your theme.'
+css[style.css][options][weight] = '10'
+
 settings[alpha_grid] = 'alpha_default'
 settings[alpha_primary_alpha_default] = 'normal'
 settings[alpha_responsive] = '1'

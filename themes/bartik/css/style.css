@@ -778,9 +778,8 @@ ul.links {
 /* ----------------- Triptych ----------------- */
 
 #triptych-wrapper {
-  background-color: #f0f0f0;
-  background: rgba(30, 50, 10, 0.08);
-  border-top: 1px solid #e7e7e7;
+  background-color: #FEFB64;
+  border-top: 1px solid #FEFB64;
 }
 #triptych h2 {
   color: #000;
@@ -793,7 +792,6 @@ ul.links {
 #triptych .block {
   margin-bottom: 2em;
   padding-bottom: 2em;
-  border-bottom: 1px solid #dfdfdf;
   line-height: 1.3;
 }
 #triptych .block.last {
