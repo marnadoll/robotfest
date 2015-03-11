@@ -14,7 +14,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 a:focus,
@@ -125,6 +125,10 @@ blockquote {
 .zone-branding-wrapper {
   background: #fff url(../images/cyanline.png) center top repeat-x;
   padding-top: 3px;
+}
+.zone-menu-wrapper {
+  background: #606060;
+  float: right;
 }
 .zone-header-wrapper {
   background: #fff;
