@@ -14,14 +14,16 @@ body {
 a,
 a:link,
 a:visited {
-  color: #00C8F8;
+  color: #333;
   text-decoration: none;
 }
 a:focus,
 a:hover,
 a:active {
   color: #00C8F8;
+  text-decoration: none;
 }
+
 .section-footer a:focus,
 .section-footer a:hover,
 .section-footer a:active {
@@ -660,7 +662,6 @@ ul#main-menu li a,
 .region-menu ul.menu li a {
   display: inline-block;
   padding: 0px 20px;
-  color: #333;
   font-family: 'Roboto Slab', Arial,Helvetica,Verdana,sans-serif;
 }
 .region-menu .block-nice-menus {
