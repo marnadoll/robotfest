@@ -126,6 +126,7 @@ blockquote {
   background: #fff url(../images/cyanline.png) center top repeat-x;
   padding-top: 3px;
 }
+
 .zone-menu-wrapper {
   background: #606060;
   float: right;
@@ -153,7 +154,7 @@ blockquote {
 .zone-content-bottom-fourth-wrapper,
 .zone-content-bottom-fifth-wrapper,
 .zone-content-bottom-fifth-wrapper {
-  background: #fff url(../images/zone-wrapper-shadow.png) 0 top repeat-x;
+  background: #FEFB64 url(../images/zone-wrapper-shadow.png) 0 top repeat-x;
 }
 
 .zone-feature-middle,
@@ -206,6 +207,7 @@ blockquote {
 #logo {
   margin: 0;
   padding: 0;
+  float: left;
 }
 #logo img {
   vertical-align: bottom;
@@ -263,11 +265,11 @@ table.table-striped {
 }
 table.table-striped thead tr th {
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
 }
 table.table-striped tbody tr td {
   border: none;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #fff;
 }
 table.no-border {
   margin: 0;

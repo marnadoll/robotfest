@@ -361,7 +361,7 @@ th:empty{
 th,td{
   vertical-align:top;
   padding:0.75em;
-  border:1px solid #ccc;
+  border:1px solid #fff;
 }
 th{
   font-weight:bold;
@@ -386,8 +386,9 @@ See http://jsfiddle.net/csswizardry/UJJay/
     vertical-align:top;
 }
 tbody tr:nth-of-type(odd){
-  background:rgba(0,0,0,0.05);
+  background: #fff rgba(0,0,0,0.05);
 }
+
 tfoot{
   text-align:center;
 }
