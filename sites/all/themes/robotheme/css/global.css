@@ -14,7 +14,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #fff;
+  color: #333;
   text-decoration: none;
 }
 a:focus,
