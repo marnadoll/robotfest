@@ -609,8 +609,8 @@ li.comment_forbidden {
 }
 .item-list .pager .pager-current,
 .item-list .pager li a:hover {
-  background: #ae351d;
-  border: 1px solid #ae351d;
+  background: #00C8F8;
+  border: 1px solid #00C8F8;
   color: #fff;
 }
 .date-nav .pager {
