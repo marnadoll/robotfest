@@ -14,7 +14,7 @@ body {
 a,
 a:link,
 a:visited {
-  color: #333;
+  color: #000;
   text-decoration: none;
 }
 a:focus,
@@ -133,7 +133,10 @@ blockquote {
 .zone-menu {
   background: #606060;
   float: right;
-  padding: 3px;
+  padding: 10px;
+  border: 2px;
+  border-bottom-left-radius: 2em;
+  border-top-left-radius: 2em;
 }
 .zone-header-wrapper {
   background: #fff;
