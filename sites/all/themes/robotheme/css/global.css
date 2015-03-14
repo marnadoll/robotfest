@@ -128,15 +128,19 @@ blockquote {
 }
 
 .zone-menu-wrapper {
+  padding-bottom: 3px;
+}
+.zone-menu {
   background: #606060;
   float: right;
-  padding-bottom: 3px;
+  padding: 3px;
 }
 .zone-header-wrapper {
   background: #fff;
 }
 .zone-preface-wrapper {
   padding-top: 15px;
+  background: #FEFB64;
 }
 .zone-full-width {
   background: #fff;
@@ -158,7 +162,7 @@ blockquote {
 .zone-content-bottom-fourth-wrapper,
 .zone-content-bottom-fifth-wrapper,
 .zone-content-bottom-fifth-wrapper {
-  background: #FEFB64 url(../images/zone-wrapper-shadow.png) 0 top repeat-x;
+  background: #fff url(../images/zone-wrapper-shadow.png) 0 top repeat-x;
 }
 
 .zone-feature-middle,
@@ -176,8 +180,8 @@ blockquote {
   background: none;
 }
 .zone-postscript-wrapper {
-  background: #1a1919;
-  color: #999;
+  background: #606060;
+  color: #000;
 }
 .zone-postscript {
   padding: 40px 0;
@@ -253,7 +257,7 @@ h3.title {
 
 /* Page and full node titles */
 h1.title {
-  color: #fff;
+  color: #606060;
   font-weight: normal;
   margin-bottom: 0;
   padding: 0 10px;
@@ -650,6 +654,7 @@ li a.active {
 /*
  * Main menu links
  */
+
 .region-menu .block {
   margin: 0;
 }
