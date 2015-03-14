@@ -130,9 +130,13 @@ blockquote {
 .zone-menu-wrapper {
   background: #606060;
   float: right;
+  padding-bottom: 3px;
 }
 .zone-header-wrapper {
   background: #fff;
+}
+.zone-preface-wrapper {
+  padding-top: 15px;
 }
 .zone-full-width {
   background: #fff;
