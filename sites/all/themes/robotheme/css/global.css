@@ -141,6 +141,13 @@ blockquote {
 .zone-header-wrapper {
   background: #fff;
 }
+/*.region-sidebar-second {
+  border: 2px;
+  border-bottom-radius: 2em;
+  border-top-radius: 2em;
+  background: #606060;
+}
+*/
 .zone-preface-wrapper {
   padding-top: 15px;
   background: #FEFB64;
