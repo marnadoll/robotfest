@@ -2944,10 +2944,11 @@ ul.quicktabs-tabs li.active a {
   background: #000;
 }
 
-.views-slideshow-controls-bottom .views-slideshow-pager-field-item {
+/*.views-slideshow-controls-bottom .views-slideshow-pager-field-item {
   float: left; 
   margin: 5px 19px 0 0; 
 }
+*/
 
 /* Block Flex Slideshow */
 .flexslider {
