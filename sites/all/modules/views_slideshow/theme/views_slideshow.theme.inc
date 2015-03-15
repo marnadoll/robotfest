@@ -180,6 +180,10 @@ function theme_views_slideshow_main_section($vars) {
  * @ingroup themeable
  */
 function theme_views_slideshow_pager_widget_render($vars) {
+  if (isset($vars['settings']['hide_on_single_slide']) && $vars['settings']['hide_on_single_slide'] === 1 && count($vars['rows']) < 2) {
+    return '';
+  }
+
   // Add javascript settings for the pager type.
   $js_vars = array(
     'viewsSlideshowPager' => array(
@@ -355,4 +359,5 @@ function theme_views_slideshow_slide_counter_widget_render($vars) {
  */
 function _views_slideshow_preprocess_views_slideshow_slide_counter(&$vars) {
   $vars['classes_array'][] = 'views_slideshow_slide_counter';
+  $vars['slide_count'] = count($vars['rows']);
 }

@@ -182,6 +182,14 @@ blockquote {
 .not-front .zone-content-wrapper {
   background: none;
 }
+
+.zone-feature-wrapper {
+
+}
+
+.zone-feature {
+  float: left;
+}
 .zone-postscript-wrapper {
   background: #606060;
   color: #000;
@@ -2929,10 +2937,16 @@ ul.quicktabs-tabs li.active a {
 .view-slideshow .views-slideshow-pager-fields .views-slideshow-pager-field-item .views-field-field-image {
   padding: 3px 3px 0 3px;
   width: 60px;
+  float: left;
 }
 .view-slideshow .views-slideshow-pager-fields .views-slideshow-pager-field-item.active .views-field-field-image,
 .view-slideshow .views-slideshow-pager-fields .views-slideshow-pager-field-item:hover .views-field-field-image {
   background: #000;
+}
+
+.views-slideshow-controls-bottom .views-slideshow-pager-field-item {
+  float: left; 
+  margin: 5px 19px 0 0; 
 }
 
 /* Block Flex Slideshow */
