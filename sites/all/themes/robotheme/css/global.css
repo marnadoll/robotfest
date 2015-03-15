@@ -190,6 +190,10 @@ blockquote {
 .zone-feature {
   float: left;
 }
+.region-feature h2.block-title {
+    border-bottom: 1px solid #e61610;
+    padding-bottom: 5px;
+}
 .zone-postscript-wrapper {
   background: #606060;
   color: #000;
@@ -2771,7 +2775,7 @@ h2.block-title {
 
 .region-sidebar-second h2.block-title,
 .region-sidebar-first h2.block-title {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #E61610;
   padding-bottom: 10px;
 }
 .zone-postscript h2.block-title {
