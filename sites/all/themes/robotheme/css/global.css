@@ -191,12 +191,10 @@ blockquote {
 }
 
 .zone-feature-wrapper {
-  float: right;
-
 }
 
 .zone-feature {
-  float: left;
+
 }
 .region-feature h2.block-title {
     border-bottom: 1px solid #e61610;
