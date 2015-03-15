@@ -191,6 +191,7 @@ blockquote {
 }
 
 .zone-feature-wrapper {
+  float: right;
 
 }
 
@@ -1034,6 +1035,7 @@ ul#om-menu-mobile-menu li.om-leaf #menu-item-search {
 .zone-footer ul.menu li.last a {
   border: none;
 }
+
 
 /*------------------------------------*\
 	NODES CSS
